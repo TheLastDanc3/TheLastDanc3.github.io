@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <link href="headers.css" rel="stylesheet">
+</head>
+
+<body class="container-fluid" style="background-color:#21273a">
+
+<!-- BARRA DE NAVEGACION SUPERIOR -->
+  <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img src="media/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="">TheLastDanc3</a>
+
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#entradas">Entradas</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#evento">Evento</a>
+            </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+            <button class="btn shop-trigger btn btn-outline-light" type="button">Comprar Entrada</button>
+        </form> -->
+        </div>
+    </div>
+  </nav>
+
+<!-- MENU DE BIENVENIDA -->
+  <div class="position-relative" style="max-height: 600px;overflow: hidden;">
+      <img src="./media/intro_image.jpg" class="img-fluid cover" style="opacity: 0.55;object-fit: cover;" alt="Descripción de la imagen">
+      <div class="overlay">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+          <h1 class="text-white fw-bold fs-1" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">THE LAST DANC3</h1>
+          <p class="text-white fs-3" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">¡Inolvidable fiesta privada de Música Electrónica que no te querrás perder!</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="mt-4"></div>
+
+<!-- SOBRE EL DJ -->
+  <div class="card">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="media/intro_image.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title fs-3">GONZALO MORENO</h3>
+          <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4"></div>
+
+  <!-- COMPRAR ENTRADAS -->
+  <div id="entradas" class="card text-center border-0">
+      <div class="card-body">
+        <h1 class="card-title fs-1">ENTRADAS</h1>
+        <p class="card-text fs-5 mt-4">¡Compra la entrada básica para disfrutar de la experiencia inolvidable de la fiesta y obten además media botella de alcohol de tu libre elección!</p>
+        <p class="card-text fs-2 fw-bold mt-2">25€</p>
+        <div class="d-grid gap-2 col-3 mx-auto">
+          <a href="#" class="btn btn-outline-primary btn-lg shop-trigger mt-2" type="button">Comprar Entrada</a>
+        </div>
+        <p class="card-text secondary fs-6 fw-lighter mt-2">Política de reembolso: No se efectúan devoluciones.</p>
+      </div>
+    </div>
+</body>
+
+<div class="mt-4 border-1"></div>
+
+<!-- INFORMACION DEL EVENTO -->
+
+<div id="evento" class="card text-center border-0">
+  <div class="card-body">
+    <h1 class="card-title fs-1">EVENTO</h1>
+    <div class="mt-4"></div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-body">
+          <h5 class="card-title fs-3">Lugar</h5>
+          <div class="mt-4"></div>
+          <p class="card-text">Avenida de Monforte de Lemos...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-body">
+          <h5 class="card-title fs-3">Fecha</h5>
+          <div class="mt-4"></div>
+          <p class="card-text fw-bold">Jueves 21 de Junio</p>
+          <p class="card-text">18:00 pm - 20:00 pm</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card h-100 bg-dark text-white">
+          <div class="card-body">
+            <h5 class="card-title fs-3">Contacto</h5>
+            <div class="mt-4"></div>
+            <p class="card-text">620-602-182</p>
+            <p class="card-text">correo@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"></li>
+    </ul>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.7361929522176!2d-3.6944264654055226!3d40.481100878027206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42296e2bf1d845%3A0xc8ededb9cb544c09!2sC.%20Arzobispo%20Morcillo%2C%20Madrid!5e0!3m2!1ses!2ses!4v1684263316552!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<!--FOOTER -->
+<footer>
+  <div class="card border-light mb-3 mt-4 card text-center">
+    <div class="card-footer text-body-secondary border-0">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col" style="max-width: 5rem;">
+            <img src="media/instagram.png" style="max-width: 3rem;">
+          </div>
+          <div class="col" style="max-width: 5rem;">
+            <img src="media/spotify.png" style="max-width: 2.9rem;">
+          </div>
+          <div class="col" style="max-width: 5rem;">
+            <img src="media/instagram.png" style="max-width: 3rem;">
+          </div>
+        </div>
+      </div>
+    <div class="mt-4"></div>
+
+      <p class="card-text mt-2">&copy; 2023 The Last Dance. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
